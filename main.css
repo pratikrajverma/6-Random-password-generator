@@ -1,0 +1,84 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper
+{
+    height: 100vh;
+    width: 100wh;
+    background-image: linear-gradient(rgb(198, 129, 198),rgb(176, 218, 176));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.content
+{
+    height: 60%;
+    width: 25rem;
+    background-color: rgba(129, 129, 129, 0.282);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(118, 118, 118);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+    justify-content: space-between;
+
+}
+
+[password-data]
+{
+    all: unset;
+    font-size: 2rem;
+    border-radius: 5px;
+    user-select: none;
+    box-shadow: 0 0 10px rgb(139, 139, 139);
+    background-color: rgba(63, 63, 63, 0.589);
+}
+
+li{
+    all: unset;
+    display: flex;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+button{
+    all: unset;
+    text-align: center;
+    padding: .7rem;
+    border-radius: 9px;
+    background-color: rgba(173, 255, 51, 0.606);
+    cursor: pointer;
+}
+
+button:active{
+    scale: .9;
+}
+
+#posswordlen{
+    all: unset;
+    background-color: rgba(0, 255, 255, 0.73);
+    height: 25px;
+    aspect-ratio: 2/1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input{
+   
+    cursor: pointer;
+    height: 20px;
+    aspect-ratio: 1/1;
+    border-radius: 6px;
+}
